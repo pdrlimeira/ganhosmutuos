@@ -381,7 +381,8 @@ section { padding: 5.5rem 5vw; }
 .fac-card:hover { border-color: var(--blue); box-shadow: 0 6px 24px rgba(30,95,168,0.1); }
 .fac-photo-wrap {
   position: relative;
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
   aspect-ratio: 1 / 1;
   background: var(--blue-pale);
   overflow: hidden;
@@ -448,46 +449,6 @@ section { padding: 5.5rem 5vw; }
   line-height: 1.6;
 }
 .partner-strip strong { color: var(--blue-deep); font-weight: 600; }
-
-/* ─── INVESTIMENTO ─── */
-.investimento { background: var(--blue-deep); }
-.investimento .section-tag { color: #7dcf70; }
-.investimento .section-title { color: var(--white); }
-.investimento .section-intro { color: rgba(255,255,255,0.6); }
-.inv-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 2.5rem; }
-.inv-card {
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 6px;
-  padding: 1.8rem;
-}
-.inv-card.featured { border-color: #7dcf70; background: rgba(125,207,112,0.07); position: relative; }
-.f-badge {
-  position: absolute; top: -12px; left: 1.5rem;
-  background: var(--green);
-  color: var(--white);
-  font-size: 0.72rem; font-weight: 600;
-  letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 0.25rem 0.9rem;
-  border-radius: 2px;
-}
-.inv-card h3 { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 0.9rem; }
-.inv-price { font-family: var(--serif); font-size: 2.8rem; font-weight: 700; color: var(--white); line-height: 1; margin-bottom: 0.3rem; }
-.inv-price sup { font-size: 1.2rem; font-weight: 400; vertical-align: super; }
-.inv-note { font-size: 0.8rem; color: rgba(255,255,255,0.45); margin-bottom: 1.4rem; }
-.inv-list { list-style: none; }
-.inv-list li { font-size: 0.85rem; color: rgba(255,255,255,0.6); padding: 0.4rem 0; border-bottom: 1px solid rgba(255,255,255,0.07); display: flex; gap: 0.6rem; }
-.inv-list li::before { content: '–'; color: #7dcf70; }
-.inv-footer-note {
-  margin-top: 2rem;
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.38);
-  padding: 1rem 1.4rem;
-  background: rgba(255,255,255,0.03);
-  border-radius: 4px;
-  border-left: 2px solid rgba(125,207,112,0.3);
-  line-height: 1.7;
-}
 
 /* ─── CTA ─── */
 .cta-section {
@@ -882,53 +843,6 @@ footer a:hover { color: #7dcf70; }
       </div>
     </div>
   </div>
-</section>
-
-<!-- INVESTIMENTO -->
-<section class="investimento" id="investimento">
-  <div class="section-tag">Valores</div>
-  <h2 class="section-title">Investimento</h2>
-  <p class="section-intro">Curso aberto para pessoas físicas. O valor inclui os materiais do dia e o acesso à plataforma digital por 12 meses.</p>
-  <div class="inv-grid">
-    <div class="inv-card featured">
-      <div class="f-badge">Inscrição individual</div>
-      <h3>Treinamento MGA — 1 dia</h3>
-      <div class="inv-price"><sup>R$</sup>350</div>
-      <div class="inv-note">por pessoa · 8 de junho de 2026</div>
-      <ul class="inv-list">
-        <li>1 dia de treinamento presencial (9h–17h)</li>
-        <li>Ministrado em inglês com tradução para português</li>
-        <li>Espaço Palas Athena, Pinheiros – São Paulo</li>
-        <li>Vagas limitadas · turmas de até 15 pessoas</li>
-        <li>Certificado de participação</li>
-      </ul>
-    </div>
-    <div class="inv-card">
-      <h3>Plataforma SOM (inclusa)</h3>
-      <div class="inv-price" style="font-size:1.5rem;padding-top:0.5rem;">12 meses<br>de acesso</div>
-      <div class="inv-note">incluído no valor da inscrição</div>
-      <ul class="inv-list">
-        <li>Todos os módulos de aprendizagem MGA</li>
-        <li>Suite completa de ferramentas SOM</li>
-        <li>Discussão entre participantes e facilitadores</li>
-        <li>Materiais disponíveis após o treinamento</li>
-        <li>Progresso e módulos organizados</li>
-      </ul>
-    </div>
-    <div class="inv-card">
-      <h3>Grupos e organizações</h3>
-      <div class="inv-price" style="font-size:1.5rem;padding-top:0.5rem;">In-company<br>sob consulta</div>
-      <div class="inv-note">para equipes a partir de 6 pessoas</div>
-      <ul class="inv-list">
-        <li>Treinamento personalizado para sua equipe</li>
-        <li>Formato de 1 a 3 dias</li>
-        <li>Casos e simulações da sua realidade</li>
-        <li>Entregue no local da sua escolha</li>
-        <li>Orçamento sob consulta</li>
-      </ul>
-    </div>
-  </div>
-  <p class="inv-footer-note">Valores em reais. Local: Espaço Palas Athena, Rua João do Rio, 75 — Pinheiros, São Paulo. Alimentação não inclusa. Vagas limitadas por turma. Pagamento confirmado reserva a vaga. WesselinkVanZijst B.V. — KvK Utrecht 51145642.</p>
 </section>
 
 <!-- CTA / INSCRIÇÃO -->
